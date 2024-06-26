@@ -1,9 +1,4 @@
-### Grupo: SO-TI-12
-### Aluno 1: Renato Pereira (fc52599)
-### Aluno 2: Duarte Fernandes (fc55327)
-### Aluno 3: Duarte Miranda (fc58631)
-
-### Exemplos de comandos para executar o pgrepwc:
+## Exemplos de comandos para executar o pgrepwc:
 
 1) ./pgrepwc -c -l if -p 2 pgrepwc_processos.py
 2) ./pgrepwc -c -l processes -p pgrepwc_processos.py 
@@ -17,7 +12,7 @@
 10) ./pgrepwc ola ../file1.txt -c -l -p 5 -e 100
 
 
-### Limitações da implementação:
+## Limitações da implementação:
 - nos processos a opção -e no ficheiro file1.txt quando o numero ce processo é muito alto (testado com 100 processos) a execução do
 comando é extremamente lenta e maioritariamente a linha de comandos fecha. Quando só temos a linha de comandos a executar o comando
 consegue processar com um numero de processos mais elevado. Por isso achomos que o problema se deve ao softwere das maquinas
@@ -27,7 +22,7 @@ virtuais da universidade que não têm capacidade para executar um numero de pro
 
 - Não fomos capazes dentro do tempo atribuido de conseguir que a opção -e funcionasse para mais que um fichiero.
 
-### Abordagem para a divisão dos ficheiros:
+## Abordagem para a divisão dos ficheiros:
 
 - na opção sem -e os ficheiros em 1 lugar são ordenados e depois distribuidos por listas da forma mais igual possivel. Se o tamanho total dos ficheiros numa lista for menor
 do que na segunda ele vai adicionar o valor do ficheiro a essa lista.     
@@ -37,7 +32,7 @@ Se o numero de ficheiros for igual ao numero de processos o processo pai vai adi
 
 
 
-### Outras informações pertinentes:
+## Outras informações pertinentes:
 
 -Nos exemplos de comando são propositadamente dados comandos que não funcionam para demonstrar
 
